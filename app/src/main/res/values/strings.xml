@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="tab_text_1">BERITA HANGAT</string>
+    <string name="tab_text_2">BERITA DUNIA</string>
+    <string name="disini">disini</string>
+    <string name="lihat_lebih_lanjut">Lihat lebih lanjut</string>
+    <string name="change_language_settings">Ganti Bahasa</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="an_api_based_application_that_provides_features_for_users_to_read_the_latest_news_ranging_from_national_news_to_international_news">Aplikasi berbasis API yang menyediakan fitur bagi pengguna untuk membaca berita terbaru tentang Indonesia
+</string>
+    <string name="fitur">Fitur:</string>
+    <string name="berita_indonesia_dan_inggris">Menyediakan Berita Up-to-Date dengan berbagai macam kategori</string>
+    <string name="localization">Localization</string>
+    <string name="app_description">Deskripsi aplikasi</string>
+    <string name="this_app_is_made_by_dzaky">Aplikasi ini dibuat oleh Dzaky</string>
+    <string name="lebih_banyak_berita_segera_hadir">Lebih Banyak Berita Segera Hadir</string>
+    <string name="hiburan">HIBURAN</string>
+    <string name="Olahraga">OLAHRAGA</string>
+    <string name="Sains">SAINS</string>
+    <string name="TEKNOLOGI">TEKNOLOGI</string>
+    <string name="KESEHATAN">KESEHATAN</string>
+    <string name="BISNIS">BISNIS</string>
+</resources>

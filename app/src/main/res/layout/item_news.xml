@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/titlenews"
+            android:layout_width="160dp"
+            android:layout_height="109dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="TITLE"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:textSize="10dp"
+                android:id="@+id/publishernews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="publisher"/>
+
+            <ImageView
+                android:layout_marginRight="5dp"
+                app:layout_constraintRight_toLeftOf="@id/jadwalpublish"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:id="@+id/iconwaktu"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/ic_access_time_black_24dp"
+
+            />
+
+            <TextView
+                android:layout_marginRight="4dp"
+                android:id="@+id/jadwalpublish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLength="10"
+                android:text="jadwal publish"
+                android:textSize="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/iconwaktu"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:id="@+id/imageview"
+        android:layout_marginLeft="10dp"
+        android:layout_width="200dp"
+        android:layout_height="129dp"
+       />
+
+</LinearLayout>
